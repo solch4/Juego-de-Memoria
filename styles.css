@@ -1,0 +1,64 @@
+body{
+    background: rgb(238,174,202);
+    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
+    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#c094e9",GradientType=1); */
+    font-family: sans-serif;
+    color: white;
+}
+
+main{
+    width: 730px;
+    margin: 40px auto 40px;
+    display: flex;
+    align-items: center; /* eje Y */
+}
+
+.section1{
+    background-color: rgba(255,255,255,0.2); /* BLANCO. el ult valor es la transparencia */
+    padding: 0 10px 10px 10px;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    color: black;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.section2{
+    background-color: rgba(255,255,255,0.2);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 250px;
+    height: 400px;
+    padding: 0 20px;
+}
+
+.statistics{
+    border: 1px solid white;
+    height: 100px;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box; /* para q no se salgan de la cajita contenedora */
+}
+
+footer{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
