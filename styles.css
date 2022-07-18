@@ -3,7 +3,6 @@ body{
     background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
     background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
-    /* filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eeaeca",endColorstr="#c094e9",GradientType=1); */
     font-family: sans-serif;
     color: white;
 }
@@ -29,8 +28,9 @@ button{
     height: 100px;
     width: 100px;
     font-size: 40px;
-    color: black;
+    color: white;
     border-radius: 8px;
+    border-color: transparent;
     font-weight: bold;
 }
 
