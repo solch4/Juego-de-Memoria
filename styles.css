@@ -43,7 +43,7 @@ button:hover{
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     width: 250px;
-    height: 400px;
+    height: 430px;
     padding: 0 20px;
 }
 
@@ -55,10 +55,22 @@ button:hover{
     box-sizing: border-box; /* para q no se salgan de la cajita contenedora */
 }
 
+#restart{
+    border: 1px solid white;
+    height: 30px;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
 }
 
-a{
-    text-decoration: none;
+#linkedin{
+    font-weight: bold;
 }
