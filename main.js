@@ -59,15 +59,15 @@ function uncover(id) {
       document.getElementById("hits").innerHTML = `Hits: ${++hits}`;
 
       if (hits === 8) {
-        document.getElementById("hits").innerHTML = `FUAAAAAA ganaste`;
+        document.getElementById("hits").innerHTML = `Congratulations!`;
         document.getElementById("timer").innerHTML = `You won the game in: ${countS} seconds`;
-        document.getElementById("movements").innerHTML = `Movements: ${movements} UN CAPO`;
+        document.getElementById("movements").innerHTML = `Movements: ${movements}, not bad!`;
         clearInterval(idInterval);
       }
     } else {
       //mostrar momentáneamente valores y volver a tapar
       setTimeout(() => {
-        //si no coinciden, dsp de 1s vuelvo a esconder las cards y habilito los botones (además reseteo el contador de uncoveredcards para poder volver a entrar a la func)
+        //si no coinciden, dsp de 0.8s vuelvo a esconder las cards y habilito los botones (además reseteo el contador de uncoveredcards para poder volver a entrar a la func)
         card1.innerHTML = "";
         card2.innerHTML = "";
         card1.disabled = false;
