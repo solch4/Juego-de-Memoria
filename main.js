@@ -13,7 +13,7 @@ let idInterval = null
 //genero n aleatorios
 let n = [1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8]
 n = n.sort(() => Math.random() - 0.5)
-console.log(n)
+// console.log(n)
 
 //cb
 function startTimer() {
