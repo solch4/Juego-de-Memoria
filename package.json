@@ -1,0 +1,23 @@
+{
+  "name": "memoria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solch4/Juego-de-Memoria.git"
+  },
+  "keywords": [],
+  "author": "Sol Maldonado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solch4/Juego-de-Memoria/issues"
+  },
+  "homepage": "https://github.com/solch4/Juego-de-Memoria#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
