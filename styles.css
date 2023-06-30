@@ -1,15 +1,18 @@
 body{
-    background: rgb(238,174,202);
-    background: -moz-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
-    background: -webkit-radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(192,148,233,1) 100%);
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background: linear-gradient(220.55deg, #8A88FB 0%, #D079EE 100%) fixed;
     font-family: sans-serif;
     color: white;
 }
 
 main{
     width: 730px;
-    margin: 40px auto 40px;
     display: flex;
     align-items: center;
 }
