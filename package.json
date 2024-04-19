@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "deploy": "gh-pages -d .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
